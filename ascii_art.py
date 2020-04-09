@@ -68,7 +68,7 @@ def print_ascii_matrix(asciiArray,xSize,ySize,print_mode='console'):
 images_path = str(os.getcwd()+'/images/')
 create_thumbnails(images_path)
 
-im1 = Image.open(images_path+'image2.jpg.thumbnail')
+im1 = Image.open(images_path+'image1.jpg.thumbnail')
 xSize = im1.size[0]
 ySize = im1.size[1]
 get_info(im1) #print info about the image and system
