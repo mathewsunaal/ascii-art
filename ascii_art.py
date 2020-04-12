@@ -20,10 +20,10 @@ def get_info(image):
     print("The ASCII character array size = ", len(ASCII_CHARS))
     print("The number of bands in the image = ", NUM_OF_BANDS)
     print("The maximum pixel value =", MAX_PIXEL_VALUE)
-    print("Columns in the image = ", im1.size[0])
-    print("Rows in the image = ", im1.size[1])
-    print("Image format = ", im1.format)
-    print("Image mode = ", im1.mode)
+    print("Columns in the image = ", image.size[0])
+    print("Rows in the image = ", image.size[1])
+    print("Image format = ", image.format)
+    print("Image mode = ", image.mode)
 
 
 def get_pixel_matrix(img,xSize,ySize):
